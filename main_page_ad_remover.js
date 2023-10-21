@@ -19,5 +19,5 @@
 })();
 
 const findAd = () => {
-    return document.querySelector("div#primary > ytd-rich-grid-renderer > div#contents > ytd-rich-grid-row > div#contents > ytd-rich-item-renderer > div#content > ytd-ad-slot-renderer");
+    return document.querySelector("ytd-ad-slot-renderer");
 }
