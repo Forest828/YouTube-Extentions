@@ -1,2 +1,1 @@
-# YouTube-ad-remover
-Removes YouTube Ads
+# My own youtube extentions using the tempermokey extention
