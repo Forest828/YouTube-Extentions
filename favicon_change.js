@@ -5,7 +5,7 @@
 // @description  Changes the favicon on YouTube
 // @author       Forest828
 // @match        https://www.youtube.com/*
-// @icon         https://cdn3.emoji.gg/emojis/9109_Sad_Cat_Thumbs_Up.png
+// @icon         https://i.pinimg.com/originals/89/80/5b/89805b03acb7f48df8c30450bdef02fd.gif
 // @grant        none
 // ==/UserScript==
 
@@ -13,7 +13,7 @@
     setInterval(() => {
         if (!!findFavicon()) {
             const favicon = findFavicon();
-            favicon.href = "https://cdn3.emoji.gg/emojis/9109_Sad_Cat_Thumbs_Up.png";
+            favicon.href = "https://i.pinimg.com/originals/89/80/5b/89805b03acb7f48df8c30450bdef02fd.gif";
         }
     }, 1000);
 })();
